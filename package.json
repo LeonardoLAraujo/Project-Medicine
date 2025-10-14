@@ -1,0 +1,22 @@
+{
+  "name": "nova-medicina",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vaadin/router": "^2.0.0",
+    "ecv-component": "^0.0.18",
+    "lit": "^3.3.0",
+    "lit-player-youtube": "^0.0.40",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  }
+}
