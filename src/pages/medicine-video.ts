@@ -340,8 +340,8 @@ export default class MedicineVideo extends ECVMedicineSwitchThemeColor{
                         <div class="search__tags">
                             ${this.generateTagsSearchVideos("Vídeos", this.getAllVideos)}
                             ${this.generateTagsSearchVideos("Lives", this.getAllLives)}
-                            <!-- ${this.generateTagsSearchVideos("Mais Recentes", this.getAllRecent)}
-                            ${this.generateTagsSearchVideos("Mais Antigos", this.getAllOld)} -->
+                            ${this.generateTagsSearchVideos("Mais Recentes", this.getAllRecent)}
+                            ${this.generateTagsSearchVideos("Mais Antigos", this.getAllOld)} 
                         </div>
                     </div>
                 </div>
