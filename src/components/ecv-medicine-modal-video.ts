@@ -84,7 +84,7 @@ export default class EcvMedicineModalVideo extends LitElement{
     private setVideo(){
         try{
             this.playerYoutube.setUrlVideo(this.video.source);
-            this.playerYoutube.hiddenContainerPlayerVideoAndShowPauseVideo();
+            //this.playerYoutube.hiddenContainerPlayerVideoAndShowPauseVideo();
             //this.playerYoutube.isPlaying = true;
         }catch(error){
             console.log(`Error: ${error}`);
@@ -94,7 +94,7 @@ export default class EcvMedicineModalVideo extends LitElement{
     private close(): void{
         this.body!.style.overflowY = "auto";
         this.style.display = "none";
-        this.playerYoutube.pauseVideo();
+        //this.playerYoutube.pauseVideo();
     }
 
     protected override render(): TemplateResult{
